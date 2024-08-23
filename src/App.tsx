@@ -20,7 +20,7 @@ function App() {
         <Mnemonic mnemonic={mnemonic} setMnemonic={setMnemonic} />
       </div>
       {mnemonic && (
-        <div className="flex gap-10 mt-2">
+        <div className="block gap-10 mt-2 md:flex">
           <div className="w-full max-w-md bg-white shadow-md rounded-2xl p-6 mt-6">
             <SolWallet mnemonic={mnemonic} />
           </div>
